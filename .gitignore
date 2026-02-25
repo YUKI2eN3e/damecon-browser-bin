@@ -1,0 +1,6 @@
+src/
+pkg/
+*.zst
+*.zip
+.SRCINFO
+*.kate-*

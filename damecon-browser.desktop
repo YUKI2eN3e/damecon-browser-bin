@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Damecon
+Terminal=false
+Type=Application
+Comment=A minimal browser designed for playing Kantai Collection via KC3Kai
+GenericName=Damecon
+Exec=/usr/bin/damecon-browser
+Icon=damecon
+Categories=Game;Network;
