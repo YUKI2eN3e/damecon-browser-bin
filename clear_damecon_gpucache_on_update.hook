@@ -1,0 +1,12 @@
+[Trigger]
+Operation = Upgrade
+Operation = Install
+Type = Package
+Target = mesa
+Target = vulkan-driver
+Target = opengl-driver
+
+[Action]
+When = PostTransaction
+Exec = /bin/sh -c "/usr/bin/find /home/*/.config/Damecon -type d -name 'GPUCache' -exec rm -rf {} \;"
+Description = Clear the GPUCache for Damecon when Vulkan/OpenGL updates.
