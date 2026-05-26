@@ -1,8 +1,8 @@
 #https://github.com/planetarian/damecon-browser/releases/download/v0.11.0-beta/damecon-browser-linux-x64-0.11.0.zip
 _pkgname="damecon-browser"
 pkgname="${_pkgname}-bin"
-pkgver=0.11.0
-pkgrel=2
+pkgver=0.11.3
+pkgrel=1
 pkgdesc='A minimal browser designed for playing Kantai Collection via KC3Kai'
 arch=(
     'x86_64'
@@ -25,7 +25,7 @@ sha256sums=(
     'df12c5b2a66432fcd8ff2f87ee98d6b2293d9a264cbd599c5d407f6a7aa6cff8'
     '145fddea696b5cef0e6032da93254b7ba3f7bd98c663d0540db858be5718b011'
 )
-sha256sums_x86_64=('145a71c99d62fef305e7f4b3bd62812865af8f48472c473482d0d63c3b430e2d')
+sha256sums_x86_64=('8eb34c6056918a56de81d98b3771033db7a53f046b93cb6bb513b11fe6e590e6')
 
 package() {
     # install damecon
